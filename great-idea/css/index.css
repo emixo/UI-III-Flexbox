@@ -63,4 +63,46 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+a {
+	text-decoration: none;
+	color: gray;
+}
+img{
+	width: 100%;
+}
+nav {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 5px;
+}
+
+.class2 {
+	display:flex;
+	justify-content: space-around;
+	padding: 70px 0px;
+	border-bottom: 1px solid black;
+	margin-bottom: 40px;
+}
+
+.sectionDiv{
+	display:flex;
+	width: 45%;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.sectionDiv h1 {
+	font-size: 70px;
+}
+
+.sectionDiv a {
+	display: flex;
+	border: 1px solid black;
+	width: 120px;
+	height: 30px;
+	justify-content: center;
+	align-items: center;
+}
