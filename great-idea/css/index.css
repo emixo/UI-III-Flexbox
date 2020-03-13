@@ -71,7 +71,7 @@ a {
 img{
 	width: 100%;
 }
-nav {
+nav  {
 	display:flex;
 	justify-content: space-between;
 	align-items: center;
@@ -83,7 +83,7 @@ nav {
 	justify-content: space-around;
 	padding: 70px 0px;
 	border-bottom: 1px solid black;
-	margin-bottom: 40px;
+	margin: 50px;
 }
 
 .sectionDiv{
@@ -105,4 +105,46 @@ nav {
 	height: 30px;
 	justify-content: center;
 	align-items: center;
+}
+
+.toppage {
+	display: flex;
+	margin: 50px;
+	justify-content: space-around;
+	
+}
+
+.bottompage {
+	display: flex;
+	justify-content: space-around;
+	width:auto;
+	border-bottom: 1px solid black;
+	margin: 50px;
+	padding: 70px 0px
+}
+
+address {
+	display: flex;
+	flex-direction: column;
+	margin: 35px;
+}
+
+address p {
+	padding: 10px;
+}
+
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 80px;
+}
+
+.webpage img {
+	margin: 50px
+}
+
+.content {
+	font-size: 20px;
+	padding: 10px
 }
